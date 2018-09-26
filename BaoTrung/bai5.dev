@@ -1,0 +1,12 @@
+#include <stdio.h>
+#include <math.h>
+int main()
+{
+	int a,b,c;
+	float tong;
+	printf("nhap 3 canh:");
+	scanf("%d %d %d",&a,&b,&c);
+	tong=4*(sqrt(a*b/c)+sqrt(b*c/a)+sqrt(a*c/b));
+	printf("tong 3 canh la: %.3f ",tong);
+	return 0;
+	}
