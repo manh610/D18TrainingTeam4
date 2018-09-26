@@ -1,0 +1,11 @@
+#include <stdio.h>
+
+int main()
+{
+	int a,tuoi;
+	printf("nhap so nam sinh:");
+	scanf("%d",&a);
+	tuoi=2018-a;
+	printf("so tuoi hien tai: %d",tuoi);
+	return 0;
+	}
