@@ -1,0 +1,12 @@
+#include <stdio.h>
+int  main()
+{
+	int a;
+	 long long b;
+	char x;
+	float d;
+	double e;
+	scanf("%d %lld %c %f %lf",&a,&b,&x,&d,&e);
+	printf("\n%d \n%lld \n%c \n%.3f \n%.9lf",a,b,x,d,e);
+	return 0;
+	}
