@@ -1,0 +1,13 @@
+#include <stdio.h>
+#include <math.h>
+
+int main()
+{
+	int a,b;
+	double  c;
+	printf("nhap so a va b:");
+	scanf("%d %d",&a,&b);
+	c=(a/7.0 + (pow(a,2))*b- sqrt(abs(a-b))+pow(b,5))*(2*a+4*b);
+	printf("gia tri la: %.4lf",c);
+	return 0;
+	}
