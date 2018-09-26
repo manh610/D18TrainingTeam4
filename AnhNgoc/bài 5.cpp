@@ -2,7 +2,7 @@
 #include <math.h>
 int main() {
 	float a,b,c,x,y,z,s;
-	scanf ("%f %f %f",a,b,c);
+	scanf ("%f %f %f",&a,&b,&c);
 	x= sqrt(a*c/b);
 	printf ("%f", x);
 	y= sqrt(b*c/a);
