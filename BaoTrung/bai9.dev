@@ -1,0 +1,11 @@
+#include <stdio.h>
+#include <math.h>
+int main()
+{
+	int a,pt;
+	printf("nhap a: ");
+	scanf("%d",&a);
+	pt=a*(a+1)*(2*a+1)/6;
+	printf("ket qua la: %d",pt);
+	return 0;
+}
